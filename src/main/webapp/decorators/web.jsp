@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="<c:url value='/template/web/vendor/animate/animate.css' />">
 	<link rel="stylesheet" type="text/css" href="<c:url value='/template/web/vendor/css-hamburgers/hamburgers.min.css' />">
 	<link rel="stylesheet" type="text/css" href="<c:url value='/template/web/vendor/animsition/css/animsition.min.css' />">
-	<link rel="stylesheet" type="text/css" href="<c:url value='/template/web/vendor/select2/select2.min.css' />">	
+	<link rel="stylesheet" type="text/css" href="<c:url value='/template/web/vendor/select2/select2.min.css' />">
 	<link rel="stylesheet" type="text/css" href="<c:url value='/template/web/vendor/daterangepicker/daterangepicker.css' />">
 	<link rel="stylesheet" type="text/css" href="<c:url value='/template/web/vendor/slick/slick.css' />">
 	<link rel="stylesheet" type="text/css" href="<c:url value='/template/web/vendor/MagnificPopup/magnific-popup.css' />">
@@ -21,8 +21,9 @@
 	<link rel="stylesheet" type="text/css" href="<c:url value='/template/web/css/main.css' />">
 	<script src="<c:url value='/template/web/vendor/jquery/jquery-3.2.1.min.js' />"></script>
 </head>
-<body class="animsition">
-
+<body>
+<%--this is on body--%>
+<%--class="animsition"--%>
 	<!-- header -->
 	<%@ include file="/common/web/header.jsp" %>
 	

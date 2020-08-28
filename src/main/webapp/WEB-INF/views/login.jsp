@@ -9,7 +9,6 @@
 </head>
 <body>
 	<div class="container">
-		<!-- <h1 class="form-heading">login Form</h1> -->
 		<div class="login-form">
 			<div class="main-div">
 				<c:if test="${param.incorrectAccount != null}">
