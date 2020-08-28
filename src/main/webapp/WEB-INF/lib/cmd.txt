@@ -1,0 +1,3 @@
+mvn install:install-file -Dfile=D:\jar\CKFinderPlugin-FileEditor-2.6.2.jar -DgroupId=com.ckfinder -DartifactId=CKFinderPlugin-FileEditor -Dversion=2.6.2 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\jar\CKFinderPlugin-ImageResize-2.6.2.jar -DgroupId=com.ckfinder -DartifactId=CKFinderPlugin-ImageResize -Dversion=2.6.2 -Dpackaging=jar
+mvn install:install-file -Dfile=D:\jar\CKFinderPlugin-Watermark-2.6.2.jar -DgroupId=com.ckfinder -DartifactId=CKFinderPlugin-Watermark -Dversion=2.6.2 -Dpackaging=jar
